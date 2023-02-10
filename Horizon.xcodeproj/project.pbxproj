@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A9DCE1B299531F300FC4015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9DCE1A299531F300FC4015 /* AppDelegate.swift */; };
+		9A9DCE1D299531F300FC4015 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9DCE1C299531F300FC4015 /* SceneDelegate.swift */; };
+		9A9DCE1F299531F300FC4015 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9DCE1E299531F300FC4015 /* ViewController.swift */; };
+		9A9DCE22299531F300FC4015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9DCE20299531F300FC4015 /* Main.storyboard */; };
+		9A9DCE25299531F300FC4015 /* Horizon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A9DCE23299531F300FC4015 /* Horizon.xcdatamodeld */; };
+		9A9DCE27299531F500FC4015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9DCE26299531F500FC4015 /* Assets.xcassets */; };
+		9A9DCE2A299531F500FC4015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9DCE28299531F500FC4015 /* LaunchScreen.storyboard */; };
+		9A9DCE35299531F600FC4015 /* HorizonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9DCE34299531F600FC4015 /* HorizonTests.swift */; };
+		9A9DCE3F299531F600FC4015 /* HorizonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9DCE3E299531F600FC4015 /* HorizonUITests.swift */; };
+		9A9DCE41299531F600FC4015 /* HorizonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9DCE40299531F600FC4015 /* HorizonUITestsLaunchTests.swift */; };
+		9A9DCE4E299549D300FC4015 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9DCE4D299549D300FC4015 /* Utils.swift */; };
+		9A9DCE512995503C00FC4015 /* ModelPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9DCE502995503C00FC4015 /* ModelPhoto.swift */; };
+		9A9DCE5429955A7600FC4015 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9DCE5329955A7600FC4015 /* SearchResultViewController.swift */; };
+		9A9DCE572995687400FC4015 /* SearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9DCE562995687400FC4015 /* SearchResultTableViewCell.swift */; };
+		9A9DCE5929957C0A00FC4015 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9DCE5829957C0A00FC4015 /* DetailsViewController.swift */; };
+		9A9DCE5B2995849500FC4015 /* ModelVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9DCE5A2995849500FC4015 /* ModelVideo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A9DCE31299531F600FC4015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A9DCE0F299531F300FC4015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A9DCE16299531F300FC4015;
+			remoteInfo = Horizon;
+		};
+		9A9DCE3B299531F600FC4015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A9DCE0F299531F300FC4015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A9DCE16299531F300FC4015;
+			remoteInfo = Horizon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A9DCE17299531F300FC4015 /* Horizon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horizon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9DCE1A299531F300FC4015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A9DCE1C299531F300FC4015 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9A9DCE1E299531F300FC4015 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A9DCE21299531F300FC4015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A9DCE24299531F300FC4015 /* Horizon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Horizon.xcdatamodel; sourceTree = "<group>"; };
+		9A9DCE26299531F500FC4015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A9DCE29299531F500FC4015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A9DCE2B299531F500FC4015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A9DCE30299531F600FC4015 /* HorizonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9DCE34299531F600FC4015 /* HorizonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizonTests.swift; sourceTree = "<group>"; };
+		9A9DCE3A299531F600FC4015 /* HorizonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9DCE3E299531F600FC4015 /* HorizonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizonUITests.swift; sourceTree = "<group>"; };
+		9A9DCE40299531F600FC4015 /* HorizonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9A9DCE4D299549D300FC4015 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		9A9DCE502995503C00FC4015 /* ModelPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPhoto.swift; sourceTree = "<group>"; };
+		9A9DCE5329955A7600FC4015 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		9A9DCE562995687400FC4015 /* SearchResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewCell.swift; sourceTree = "<group>"; };
+		9A9DCE5829957C0A00FC4015 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		9A9DCE5A2995849500FC4015 /* ModelVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelVideo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A9DCE14299531F300FC4015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9DCE2D299531F600FC4015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9DCE37299531F600FC4015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A9DCE0E299531F300FC4015 = {
+			isa = PBXGroup;
+			children = (
+				9A9DCE19299531F300FC4015 /* Horizon */,
+				9A9DCE33299531F600FC4015 /* HorizonTests */,
+				9A9DCE3D299531F600FC4015 /* HorizonUITests */,
+				9A9DCE18299531F300FC4015 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A9DCE18299531F300FC4015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A9DCE17299531F300FC4015 /* Horizon.app */,
+				9A9DCE30299531F600FC4015 /* HorizonTests.xctest */,
+				9A9DCE3A299531F600FC4015 /* HorizonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A9DCE19299531F300FC4015 /* Horizon */ = {
+			isa = PBXGroup;
+			children = (
+				9A9DCE4F2995500E00FC4015 /* DataModels */,
+				9A9DCE1A299531F300FC4015 /* AppDelegate.swift */,
+				9A9DCE1C299531F300FC4015 /* SceneDelegate.swift */,
+				9A9DCE5229955A0A00FC4015 /* ViewControllers */,
+				9A9DCE20299531F300FC4015 /* Main.storyboard */,
+				9A9DCE26299531F500FC4015 /* Assets.xcassets */,
+				9A9DCE28299531F500FC4015 /* LaunchScreen.storyboard */,
+				9A9DCE2B299531F500FC4015 /* Info.plist */,
+				9A9DCE23299531F300FC4015 /* Horizon.xcdatamodeld */,
+				9A9DCE4D299549D300FC4015 /* Utils.swift */,
+				9A9DCE562995687400FC4015 /* SearchResultTableViewCell.swift */,
+			);
+			path = Horizon;
+			sourceTree = "<group>";
+		};
+		9A9DCE33299531F600FC4015 /* HorizonTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A9DCE34299531F600FC4015 /* HorizonTests.swift */,
+			);
+			path = HorizonTests;
+			sourceTree = "<group>";
+		};
+		9A9DCE3D299531F600FC4015 /* HorizonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A9DCE3E299531F600FC4015 /* HorizonUITests.swift */,
+				9A9DCE40299531F600FC4015 /* HorizonUITestsLaunchTests.swift */,
+			);
+			path = HorizonUITests;
+			sourceTree = "<group>";
+		};
+		9A9DCE4F2995500E00FC4015 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				9A9DCE502995503C00FC4015 /* ModelPhoto.swift */,
+				9A9DCE5A2995849500FC4015 /* ModelVideo.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		9A9DCE5229955A0A00FC4015 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A9DCE1E299531F300FC4015 /* ViewController.swift */,
+				9A9DCE5329955A7600FC4015 /* SearchResultViewController.swift */,
+				9A9DCE5829957C0A00FC4015 /* DetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A9DCE16299531F300FC4015 /* Horizon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9DCE44299531F600FC4015 /* Build configuration list for PBXNativeTarget "Horizon" */;
+			buildPhases = (
+				9A9DCE13299531F300FC4015 /* Sources */,
+				9A9DCE14299531F300FC4015 /* Frameworks */,
+				9A9DCE15299531F300FC4015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Horizon;
+			productName = Horizon;
+			productReference = 9A9DCE17299531F300FC4015 /* Horizon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A9DCE2F299531F600FC4015 /* HorizonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9DCE47299531F600FC4015 /* Build configuration list for PBXNativeTarget "HorizonTests" */;
+			buildPhases = (
+				9A9DCE2C299531F600FC4015 /* Sources */,
+				9A9DCE2D299531F600FC4015 /* Frameworks */,
+				9A9DCE2E299531F600FC4015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A9DCE32299531F600FC4015 /* PBXTargetDependency */,
+			);
+			name = HorizonTests;
+			productName = HorizonTests;
+			productReference = 9A9DCE30299531F600FC4015 /* HorizonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A9DCE39299531F600FC4015 /* HorizonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9DCE4A299531F600FC4015 /* Build configuration list for PBXNativeTarget "HorizonUITests" */;
+			buildPhases = (
+				9A9DCE36299531F600FC4015 /* Sources */,
+				9A9DCE37299531F600FC4015 /* Frameworks */,
+				9A9DCE38299531F600FC4015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A9DCE3C299531F600FC4015 /* PBXTargetDependency */,
+			);
+			name = HorizonUITests;
+			productName = HorizonUITests;
+			productReference = 9A9DCE3A299531F600FC4015 /* HorizonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A9DCE0F299531F300FC4015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9A9DCE16299531F300FC4015 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					9A9DCE2F299531F600FC4015 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9A9DCE16299531F300FC4015;
+					};
+					9A9DCE39299531F600FC4015 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9A9DCE16299531F300FC4015;
+					};
+				};
+			};
+			buildConfigurationList = 9A9DCE12299531F300FC4015 /* Build configuration list for PBXProject "Horizon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A9DCE0E299531F300FC4015;
+			productRefGroup = 9A9DCE18299531F300FC4015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A9DCE16299531F300FC4015 /* Horizon */,
+				9A9DCE2F299531F600FC4015 /* HorizonTests */,
+				9A9DCE39299531F600FC4015 /* HorizonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A9DCE15299531F300FC4015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9DCE2A299531F500FC4015 /* LaunchScreen.storyboard in Resources */,
+				9A9DCE27299531F500FC4015 /* Assets.xcassets in Resources */,
+				9A9DCE22299531F300FC4015 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9DCE2E299531F600FC4015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9DCE38299531F600FC4015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A9DCE13299531F300FC4015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9DCE512995503C00FC4015 /* ModelPhoto.swift in Sources */,
+				9A9DCE5429955A7600FC4015 /* SearchResultViewController.swift in Sources */,
+				9A9DCE5929957C0A00FC4015 /* DetailsViewController.swift in Sources */,
+				9A9DCE5B2995849500FC4015 /* ModelVideo.swift in Sources */,
+				9A9DCE572995687400FC4015 /* SearchResultTableViewCell.swift in Sources */,
+				9A9DCE4E299549D300FC4015 /* Utils.swift in Sources */,
+				9A9DCE1F299531F300FC4015 /* ViewController.swift in Sources */,
+				9A9DCE25299531F300FC4015 /* Horizon.xcdatamodeld in Sources */,
+				9A9DCE1B299531F300FC4015 /* AppDelegate.swift in Sources */,
+				9A9DCE1D299531F300FC4015 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9DCE2C299531F600FC4015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9DCE35299531F600FC4015 /* HorizonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9DCE36299531F600FC4015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9DCE41299531F600FC4015 /* HorizonUITestsLaunchTests.swift in Sources */,
+				9A9DCE3F299531F600FC4015 /* HorizonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A9DCE32299531F600FC4015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A9DCE16299531F300FC4015 /* Horizon */;
+			targetProxy = 9A9DCE31299531F600FC4015 /* PBXContainerItemProxy */;
+		};
+		9A9DCE3C299531F600FC4015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A9DCE16299531F300FC4015 /* Horizon */;
+			targetProxy = 9A9DCE3B299531F600FC4015 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A9DCE20299531F300FC4015 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A9DCE21299531F300FC4015 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A9DCE28299531F500FC4015 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A9DCE29299531F500FC4015 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A9DCE42299531F600FC4015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A9DCE43299531F600FC4015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A9DCE45299531F600FC4015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Horizon/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Horizon;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.markets.Horizon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A9DCE46299531F600FC4015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Horizon/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Horizon;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.markets.Horizon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A9DCE48299531F600FC4015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.markets.HorizonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Horizon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Horizon";
+			};
+			name = Debug;
+		};
+		9A9DCE49299531F600FC4015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.markets.HorizonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Horizon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Horizon";
+			};
+			name = Release;
+		};
+		9A9DCE4B299531F600FC4015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.markets.HorizonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Horizon;
+			};
+			name = Debug;
+		};
+		9A9DCE4C299531F600FC4015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.markets.HorizonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Horizon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A9DCE12299531F300FC4015 /* Build configuration list for PBXProject "Horizon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9DCE42299531F600FC4015 /* Debug */,
+				9A9DCE43299531F600FC4015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A9DCE44299531F600FC4015 /* Build configuration list for PBXNativeTarget "Horizon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9DCE45299531F600FC4015 /* Debug */,
+				9A9DCE46299531F600FC4015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A9DCE47299531F600FC4015 /* Build configuration list for PBXNativeTarget "HorizonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9DCE48299531F600FC4015 /* Debug */,
+				9A9DCE49299531F600FC4015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A9DCE4A299531F600FC4015 /* Build configuration list for PBXNativeTarget "HorizonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9DCE4B299531F600FC4015 /* Debug */,
+				9A9DCE4C299531F600FC4015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9A9DCE23299531F300FC4015 /* Horizon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9A9DCE24299531F300FC4015 /* Horizon.xcdatamodel */,
+			);
+			currentVersion = 9A9DCE24299531F300FC4015 /* Horizon.xcdatamodel */;
+			path = Horizon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9A9DCE0F299531F300FC4015 /* Project object */;
+}
